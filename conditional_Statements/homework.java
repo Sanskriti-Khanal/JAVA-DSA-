@@ -101,6 +101,7 @@ public class homework {
             default:
                 System.out.println("There are only 12 months");
                 break;
+
         }
 
     }
