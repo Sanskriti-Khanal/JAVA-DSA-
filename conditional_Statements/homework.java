@@ -2,6 +2,8 @@ package conditional_Statements;
 
 import java.util.Scanner;
 
+//Lecture 3
+
 public class homework {
     // Make a Calculator. Take 2 numbers (a & b) from the user and an operation as
     // follows :
