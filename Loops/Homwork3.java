@@ -17,6 +17,27 @@ public class Homwork3 {
          * (Hint : use do-while loop but think & understand why)
          * 
          */
+        Scanner sc = new Scanner(System.in);
+        int choice;
+        do {
+            System.out.println("Enter the mark: ");
+            int Mark = sc.nextInt();
+            if (Mark >= 90) {
+                System.out.println("This is Good.");
+            } else if (Mark >= 60) {
+                System.out.println("This is also Good");
+            } else {
+                System.out.println("This is Good as well Because marks don’t matter but our effort does.");
+
+            }
+            System.out.println("Do you still want to continue? If yes press 1 if no than press 0");
+            choice = sc.nextInt();
+
+        } while (choice == 1);
+        {
+            System.out.println("Program Stopped");
+
+        }
 
     }
 
