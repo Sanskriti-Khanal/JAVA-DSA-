@@ -22,7 +22,6 @@ public class RotatedIFP {
                 System.out.print("*");
             }
             System.out.println();
-
         }
     }
 
